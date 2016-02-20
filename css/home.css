@@ -92,7 +92,7 @@ img#ariel{
   max-height: 350px;*/
   height: auto;
   max-width: 250px;
-  width: 24%;
+  width: 50%;
   margin: auto;
   z-index: 5;
   -webkit-animation: pulsate 2s ease-out;
