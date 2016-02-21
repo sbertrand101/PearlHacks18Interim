@@ -85,6 +85,10 @@ body .jumbotron {
 }
 
 
+.jumbotron p{
+  font-size: 1em;
+}
+
 /*panel-body #sponsors img{
   max-width:100%;
 max-height:100%;
