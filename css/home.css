@@ -221,7 +221,7 @@ div#content.container
   max-width: 80px;
   width: 10%;
   min-width: 60px;
-  z-index: 10;
+  z-index: 20;
 }
 
 #nav.affix-top {
