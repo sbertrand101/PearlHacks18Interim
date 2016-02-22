@@ -1,7 +1,7 @@
-tr > td:nth-child(1), tr > td:nth-child(2), tr>td:nth-child(3) {
-	width: 100px;
+tr > td:nth-child(1), tr > td:nth-child(2) {
+	width: 15%;
 }
 
-.panel-body{
-	font-size: 1.2rem;
+tr > td:nth-child(3){
+	width: 17%;
 }
