@@ -22,6 +22,30 @@
 	<!--Import Pearl Hacks overrides-->
 	<link type="text/css" rel="stylesheet" href="../../css/pearlhacks.css" />
 	<link type="text/css" rel="stylesheet" href="../../css/home.css" />
+	<style>
+		p{
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+
+		.parking a{
+		  color: #CE4E6D;
+		  font-family: 'Didact Gothic';
+		  font-size: 16px;
+		  font-weight: bold;
+		}
+
+		.parking a:hover{
+		  text-shadow: 1px 1px black;
+		  text-decoration: none;
+		}
+
+		.carpool li, .buspool li{
+		  font-family: 'Didact Gothic';
+		  font-size: inherit;
+		}
+
+	</style>
 </head>
 
 <body>
@@ -113,7 +137,7 @@
   					Chapel Hill, NC 27599<br>
   					</address>
 						<p>Free parking is available within easy walking distance of Pearl Hacks beginning at <b>5:00pm</b> Friday afternoon if you choose to arrive early.</p>
-						<ul>
+						<ul class = "parking">
 							<li><a href="https://www.google.com/maps/dir/Bell+Tower+Parking+Deck,+Chapel+Hill,+NC+27514,+United+States/35.9097032,-79.0527534/@35.9085196,-79.0539276,17z/data=!4m9!4m8!1m5!1m1!1s0x89acc2eedc3bd00f:0x2dd3a16fc7f5b0c9!2m2!1d-79.0500869!2d35.9067152!1m0!3e2">Bell Tower Parking Deck</a></li>
 							<li><a href="https://www.google.com/maps/dir/Department+of+Computer+Science,+Chapel+Hill,+NC+27514/Cobb+Parking+Deck,+Chapel+Hill,+NC+27514/@35.9107855,-79.0515577,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89acc2e89e40c0c1:0x38fa53cf078c0e56!2m2!1d-79.0531119!2d35.9097319!1m5!1m1!1s0x89acc2ea68ddf24b:0x38f6620f02eadfae!2m2!1d-79.0456262!2d35.9117533!3e2">Cobb Parking Deck</a></li>
 							<li><a href="https://www.google.com/maps/dir/35.9095348,-79.052167/35.9097177,-79.0527597/@35.9086153,-79.0552597,17z/data=!4m2!4m1!3e2">Venable Parking Lot</a></li>
@@ -131,22 +155,26 @@
 						<h2>Carpools</h2>
 					</div>
 					<div class="panel-body">
+						<p style="font-size: 19px;">All carpool reimbursements have to be pre-approved.</p>
 						<p>A carpool consists of 3 or more students intending to participate in Pearl Hacks.</p>
-						<p>If you received your registration confirmation, your carpool is automatically approved for a grant equivalent to the cost of gas, not to exceed $0.10/mile. Limit one per carpool. Qualifications for carpool grants are as follows:</p>
-						<ul>
+						<p>Once you receive registration information, e-mail us at hello@pearlhacks.com with subject line "Carpool Reimbursement". List the names
+							 of participants who will carpool together and which schools, city and state you will be traveling from.
+							 You may be asked to submit reimbursement documents prior to or after the event in order to receive your travel grants.
+							 Qualifications for carpool grants are as follows:</p>
+						<ul class="carpool">
 							<li>RSVP via link in your email</li>
 							<li>Drive yourself and at least 2 passengers to Pearl Hacks</li>
+							<li>Make sure everyone checks in (even if you have to come late)</li>
 							<li>Submit a project</li>
 						</ul>
-						<p>We cannot make exceptions to this policy. Grants will be distributed after the event by mail.</p>
-						<h3>
-							Grant amounts
-						</h3>
-						<table>
-							<thead>
-								<tr><th>Maximum one-way distance&nbsp;&nbsp;&nbsp;</th><th>Total grant amount</th></tr>
-							</thead>
+						<p>We cannot make exceptions to this policy. Limit one per carpool.</p>
+						<br>
+						<p style="font-size: 18px;">
+							Grant Amounts
+						</p>
+						<table style="text-align:center;">
 							<tbody>
+								<tr style="font-weight:bold"><td>Maximum one-way distance</td><td>Total grant amount</td></tr>
 								<tr><td>0 - 50 miles</td><td>$0</td></tr>
 								<tr><td>51 - 100 miles</td><td>$20</td></tr>
 								<tr><td>101 - 200 miles</td><td>$40</td></tr>
@@ -173,10 +201,13 @@
 			<div class="col-xs-12 col-sm-6">
 				<div class="panel panel-primary hacknc-panel">
 					<div class="panel-heading">
-						<h2>Other transit options</h2>
+						<h2>International travel</h2>
 					</div>
 					<div class="panel-body">
-						<p>Pearl Hacks has a limited number of <b>$50</b> grants available to supplement the cost of bus/train/plane tickets. Email us at hello@pearlhacks.com with the subject title "Other Transit Options" before booking to confirm availability.</p>
+						<p>We love international participants!
+							Unfortunately, Pearl Hacks cannot provide assistance for international travel or visa paperwork.
+							However, if you do make it to Pearl Hacks, send us an e-mail with subject line: "International Participant".
+							The transportation team would love to show you around Chapel Hill if time permits!</p>
 					</div>
 				</div>
 			</div>
@@ -188,20 +219,42 @@
 						<h2>Chartered Buses</h2>
 					</div>
 					<div class="panel-body">
-						<p>Pearl Hacks will be sending buses to the following locations: New York, Virginia, Georgia, and Florida. Bus accomodations will be made for groups greater than 30.</p>
+						<p>Pearl Hacks will be sending buses that will be making stops at the following locations:
+							<ul class="buspool">
+								<li>NY - NC: New York University -> Rutgers University(NJ) -> Howard University(DC) -> University of Virginia(VA) -> UNC Chapel Hill</li>
+								<li>MD - NC: University of Maryland at College Park(MD) -> UNC Chapel Hill</li>
+							</ul>
+							Bus seats are allocated for the first 48-56 participants who signed up and indicated that
+							they will be traveling from the states we are providing buses for. You need not be students from
+							universities the buses will be making a stop at. If you signed up late, don't worry. Typically,
+							not all participants who signed up would go and chances are there will be bus seats available for you.
+							We are currently organizing buses for Georgia and Florida participants. The route we are planning for the bus is
+							University of Florida(FL) -> Georgia Tech (GA) -> UNC Chapel Hill. Please stay in tune for updates.
+						</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<div class="panel panel-primary hacknc-panel">
 					<div class="panel-heading">
-						<h2>International travel</h2>
+						<h2>Other transit options</h2>
 					</div>
 					<div class="panel-body">
-						<p>Pearl Hacks can not provide assistance for international travel or visa paperwork.</p>
+						<p>Flight reimbursements are very limited. Unfortunately, we will not be providing flight reimbursements for people
+						from states we are providing buses to. If you do require a flight reimbursement,
+						please send us an e-mail at hello@pearlhacks.com with subject line: "Flight Reimbursement".
+						State the city and state you will be traveling from and
+						attach a link to a 30-second video or a 150 words max response on what
+						interests you about computer science and what you hope to do with it in the future!
+						Someone from the transportation team will reach out to you within a week, and you will have another week
+						to submit your flight receipts. You will also be required to submit an additional of 2-3 forms in order to
+						receive grants from us. Due to our limited budget, we are very unlikely to reimburse more than $150 per person for flights.
+						However, we will review flight reimbursements on a case-by-case basis and we will try our best to help you out!
+						</p>
 					</div>
 				</div>
 			</div>
+
 		</div>
 		<div class="row">
 			<div class="col-xs-12">

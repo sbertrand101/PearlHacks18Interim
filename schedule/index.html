@@ -21,6 +21,23 @@
 	<!--Import Pearl Hacks overrides-->
 	<link type="text/css" rel="stylesheet" href="../css/pearlhacks.css" />
 	<link type="text/css" rel="stylesheet" href="../css/home.css" />
+	<style>
+		table{
+		 /* Non standard for webkit */
+		 	word-break: break-word;
+		 	-webkit-hyphens: auto;
+		 	-moz-hyphens: auto;
+		 	-ms-hyphens: auto;
+	 		hyphens: auto;
+		}
+		table thead tr th{
+			font-size: 12px;
+		}
+
+		table td{
+			font-size: 10px;
+		}
+	</style>
 </head>
 
 <body>
@@ -92,9 +109,11 @@
 	<script type="text/javascript" src="../js/navbar-offset.js"></script>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>
+			<h2>
+			<strong>
 				Schedule for the weekend
-			</h1>
+			</strong>
+		</h2>
 			<p>Here are the awesome things we have planned for April 2 - 3, 2016</p>
 			<!-- <p><a href="../maps/"><span class="icon-preview"><i class="mdi-maps-directions"></i></span> Venue Maps</a>
 			</p>
@@ -104,7 +123,7 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-lg-4">
+			<div class="col-lg-6">
 				<div class="panel panel-primary hacknc-panel">
 					<div class="panel-heading">
 						<h3>Saturday, April 2nd</h3>
@@ -114,7 +133,7 @@
 							<tr>
 								<th>Start</th>
 								<th>End</th>
-								<th>Location</th>
+								<th>Venue</th>
 								<th>Event</th>
 							</tr>
 						</thead>
@@ -122,7 +141,7 @@
 					</table>
 				</div>
 			</div>
-			<div class="col-md-12 col-lg-4">
+			<div class="col-lg-6">
 				<div class="panel panel-primary hacknc-panel">
 					<div class="panel-heading">
 						<h3>Sunday, April 3rd</h3>
@@ -132,7 +151,7 @@
 							<tr>
 								<th>Start</th>
 								<th>End</th>
-								<th>Location</th>
+								<th>Venue</th>
 								<th>Event</th>
 							</tr>
 						</thead>
