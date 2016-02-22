@@ -94,3 +94,20 @@ body .jumbotron {
   max-width:100%;
 max-height:100%;
 }*/
+
+.parking a{
+  color: #CE4E6D;
+  font-family: 'Didact Gothic';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.parking a:hover{
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+}
+
+.carpool li, .buspool li{
+  font-family: 'Didact Gothic';
+  font-size: inherit;
+}
