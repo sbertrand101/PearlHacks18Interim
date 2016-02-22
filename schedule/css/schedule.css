@@ -1,7 +1,7 @@
 tr > td:nth-child(1), tr > td:nth-child(2) {
-	width: 15%;
+	width: 20%;
 }
 
 tr > td:nth-child(3){
-	width: 17%;
+	width: 22%;
 }
