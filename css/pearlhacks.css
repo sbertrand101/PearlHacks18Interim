@@ -24,13 +24,14 @@ body .jumbotron {
   color:white;
 }
 
-.navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
+/*this is the navigation bar color and text color*/
+.navbar.pearlhacks-navbar, .panel.pearlhacks-navbar > .panel-heading {
   background: #02030A;
   color: white;
 }
 
-.panel.hacknc-panel > .panel-heading {
-  background-color: #ce4e6d;
+.panel.pearlhacks-panel > .panel-heading {
+  background-color: pink;
   color: white;
 }
 
@@ -53,9 +54,6 @@ body .jumbotron {
   font-size:105%;
   font-weight:600;
   color: inherit;
-    /*border-bottom: 2px solid;
-    border-color: inherit;
-  color: inherit;*/
 }
 .row {
   padding-left: 8px;
@@ -72,16 +70,15 @@ body .jumbotron {
 
 /* Layout */
 
-.hacknc-footer {
+.pearlhacks-footer {
   padding-right: 5%;
 }
 
-.hacknc-footer span {
+.pearlhacks-footer span {
   font-size: 1.5rem;
 }
 
 .panel{
-  background: linear-gradient(#FFFFFF,#FBEFF2,#F7DEE4,#F3CED6);
   height: auto;
   overflow: auto;
 }
@@ -102,8 +99,3 @@ ul.dropdown-menu a{
 ul.dropdown-menu a:hover{
   color:white;
 }
-
-/*panel-body #sponsors img{
-  max-width:100%;
-max-height:100%;
-}*/

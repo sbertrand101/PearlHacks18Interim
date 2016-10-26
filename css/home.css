@@ -53,7 +53,6 @@ header.full-height > .jumbotron {
   padding: 0;
   margin: 0;
   position: relative;
-  background: radial-gradient(#151A51,#000029,#040510,#000000);
 }
 
 #pearlHacks{
@@ -87,27 +86,14 @@ header.full-height > .jumbotron {
 }
 
 img#ariel{
-  /*max-width: 330px;
-  max-height: 350px;*/
   height: auto;
   max-width: 250px;
   width: 50%;
   margin: auto;
   z-index: 5;
   margin-top:2%;
-  -webkit-animation: pulsate 2s ease-out;
- -webkit-animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes pulsate {
-    0% {-webkit-filter: drop-shadow(0px 0px 12px #fff6e9)}
-    50% {-webkit-filter: drop-shadow(0px 0px 7px #FFEFDA)}
-    100% {-webkit-filter: drop-shadow(0px 0px 12px white)}
-}
-
-/*#ariel:hover8
-    -webkit-filter: drop-shadow(0px 0px 20px #fff6e9);
-}*/
   @media screen and (max-width: 500px) {
    .ariel{
      background-size: 150px 154px;
@@ -214,15 +200,6 @@ div#content.container
   font-size:40px;
 }
 
-#mlh-trust-badge {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  max-width: 80px;
-  width: 10%;
-  min-width: 60px;
-  z-index: 20;
-}
 
 #nav.affix-top {
   z-index: 666;
