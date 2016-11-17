@@ -1,8 +1,10 @@
 var faqHeight = function() {
 	$('#faq .panel').css('height', '');
-	var faqHeight = Math.max.apply(null, $('#faq .panel').map(function() {
-    return $(this).height();
-  }).get());
+	var bubbles = $('#faq .panel');
+	var faqHeight = 0;
+	if(bubbles.length > 0) {
+		faqHeight = bubbles.first().width() + 65;
+	}
 	$('#faq .panel').css('height', faqHeight);
 };
 
