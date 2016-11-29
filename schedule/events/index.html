@@ -5,44 +5,51 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pearl Hacks Schedule</title>
-	<link rel="icon" href="../ariel.png" type="image/x-icon" />
+  <meta property="og:title" content="Pearl Hacks - Travel information" />
+	<meta property="og:site_name" content="Pearl Hacks 2016" />
+  <meta property="og:url" content="http://pearlhacks.com/about/travel" />
+	<meta property="og:description" content="Pearl Hacks travel grant information." />
+	<meta property="og:updated_time" content="1439328118" />
+	<link rel="icon" href="../../ariel.png" type="image/x-icon" />
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-	<link type="text/css" rel="stylesheet" href="../css/material-fullpalette.min.css" />
-	<link type="text/css" rel="stylesheet" href="../css/home.css" />
-	<link type="text/css" rel="stylesheet" href="../css/pearlhacks.css" />
-	<link type="text/css" rel="stylesheet" href="css/schedule.css" />
+	<title>Travel grants for Pearl Hacks</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<link rel="icon" href="../images/ariel.png" type="image/png">
+	<link rel="icon" href="../../images/ariel.png" type="image/png">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 	<!--Import bootstrap.css-->
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-	<link type="text/css" rel="stylesheet" href="../css/material-fullpalette.min.css" />
+	<link type="text/css" rel="stylesheet" href="../../css/material-fullpalette.min.css" />
 	<!--Import Pearl Hacks overrides-->
-	<link type="text/css" rel="stylesheet" href="../css/pearlhacks.css" />
-	<link type="text/css" rel="stylesheet" href="../css/home.css" />
+	<link type="text/css" rel="stylesheet" href="../../css/pearlhacks.css" />
+	<link type="text/css" rel="stylesheet" href="../../css/home.css" />
 	<style>
-		table{
-		 /* Non standard for webkit */
-		 	word-break: break-word;
-		 	-webkit-hyphens: auto;
-		 	-moz-hyphens: auto;
-		 	-ms-hyphens: auto;
-	 		hyphens: auto;
-		}
-		table thead tr th{
-			font-size: 12px;
+		p{
+			font-size: 15px;
+			letter-spacing: 1px;
 		}
 
-		table td{
-			font-size: 10px;
+		.parking a{
+		  color: #CE4E6D;
+		  font-family: 'Didact Gothic';
+		  font-size: 16px;
+		  font-weight: bold;
 		}
+
+		.parking a:hover{
+		  text-shadow: 1px 1px black;
+		  text-decoration: none;
+		}
+
+		.carpool li, .buspool li{
+		  font-family: 'Didact Gothic';
+		  font-size: inherit;
+		}
+
 	</style>
 </head>
 
 <body>
-	<div id="nav-wrapper">
-		<nav id="nav" class="navbar navbar-default pearlhacks-navbar">
+		<nav class="navbar navbar-default pearlhacks-navbar navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -51,7 +58,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Pearl Hacks <span class="sr-only">(current)</span></a>
+					<a class="navbar-brand" href="../../index.html">Pearl Hacks <span class="sr-only">(current)</span></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav">
@@ -60,10 +67,10 @@
 							About <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="./about/travel/index.html">Travel</a></li>
-							<li><a href="./about/rules/index.html">Guidelines</a></li>
-							<li><a href="./maps/index.html">Maps</a></li>
-							<li><a href="./about/prizes/index.html">Prizes</a></li>
+							<li><a href="../../about/travel/index.html">Travel</a></li>
+							<li><a href="../../about/rules/index.html">Guidelines</a></li>
+							<li><a href="../../about/maps/index.html">Maps</a></li>
+							<li><a href="../../about/prizes/index.html">Prizes</a></li>
 						</ul>
 						</li>
 						<li>
@@ -71,22 +78,22 @@
 								Register<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
-							<li><a href="./apply/participant.html" target="_blank">Participant</a></li>
-							<li><a href="./apply/volunteer.html" target="_blank">Volunteer</a></li>
-							<li><a href="./apply/mentor.html" target="_blank">Mentor</a></li>
+							<li><a href="../../apply/participant.html" target="_blank">Participant</a></li>
+							<li><a href="../../apply/volunteer.html" target="_blank">Volunteer</a></li>
+							<li><a href="../../apply/mentor.html" target="_blank">Mentor</a></li>
 						</ul>
 						</li>
 						<li>
-							<a href="./learn/index.html">Learn</a>
+							<a href="../../learn/index.html">Learn</a>
 						</li>
 						<li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 							Schedule <span class="caret"></span>
 						</a>
 							<ul class="dropdown-menu">
-							<li><a href="#">Events</a></li>
-							<li><a href="#">Workshops</a></li>
-							<li><a href="#">Tech Talks</a></li>
+							<li><a href="">Events</a></li>
+							<li><a href="../workshops/index.html">Workshops</a></li>
+							<li><a href="../techtalks/index.html">Tech Talks</a></li>
 						</ul>
 						</li>
 					</ul>
@@ -107,8 +114,7 @@
 				</div>
 			</div>
 		</nav>
-	</div>
-	<script type="text/javascript" src="../js/navbar-offset.js"></script>
+	<script type="text/javascript" src="../../js/navbar-offset.js"></script>
 	<div class="jumbotron">
 		<div class="container">
 			<h2>
@@ -160,18 +166,12 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="../js/material.min.js"></script>
-	<script type="text/javascript" src="../js/pearlhacks.js"></script>
-	<script type="text/javascript" src="js/schedule.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<!-- Google Analytics -->
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
 	<script type="text/javascript">
-		scheduleLoad("json/student.json");
-
 		try {
 			var pageTracker = _gat._getTracker("UA-61641591-1");
 			pageTracker._trackPageview();
