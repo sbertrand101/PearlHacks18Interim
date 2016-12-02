@@ -26,7 +26,7 @@ body .jumbotron {
 
 /*this is the navigation bar color and text color*/
 .navbar.pearlhacks-navbar, .panel.pearlhacks-navbar > .panel-heading {
-  background: transparent;
+  background: #02030A; /*until js is fixed to allow for color change*/
   color: white;
 }
 
