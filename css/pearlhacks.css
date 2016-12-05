@@ -30,6 +30,11 @@ body .jumbotron {
   color: white;
 }
 
+.navbar.pearlhacks-navbar.affix-top, .panel.pearlhacks-navbar.affix-top > .panel-heading {
+  background:transparent;
+}
+
+
 .panel.pearlhacks-panel > .panel-heading {
   background-color: pink;
   color: white;
