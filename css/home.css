@@ -75,7 +75,6 @@ header.full-height > .jumbotron {
   background-size: 100% 100%;
   filter:saturate(100%);
 }
-}
 
 
 #pearlHacks{
@@ -114,7 +113,7 @@ img#ariel{
   width: 50%;
   margin: auto;
   z-index: 5;
-  padding-top:15%;
+  padding-top:10%;
   display: block;
 }
 
@@ -253,7 +252,6 @@ div#content.container
 
 #faq h2{
   font-weight: bold;
-  text-shadow: 1px 1px black;
   font-size: 1.9em;
   color: #ce4e6d;
 }
@@ -306,11 +304,41 @@ div#content.container
 }
 
 .teal {
-  background: #81CFD3;
+  background-color: #81CFD3;
 }
 
 .purple {
   background: #A28AC0;
+}
+
+.pink {
+  background: #DB8385;
+}
+
+.footerHome {
+  width: 100%;
+  height:400px;
+  margin-bottom: -22px;
+}
+
+.btn-white.emailButton {
+  font-size: 36px;
+  font-weight:lighter;
+}
+
+#footerHomeContent {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.centerText {
+  text-align: center;
+}
+.btn.btn-white.teal {
+  font-size: 24px;
+  font-weight:lighter;
+  background-color: #81CFD3;
+  border-radius: 6px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
