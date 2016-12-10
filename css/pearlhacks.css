@@ -132,6 +132,20 @@ ul.dropdown-menu a:hover{
   border-radius: 3px 0 0 3px;
 }
 
+.welcome p, .welcome li, .welcome table{
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.welcome, .welcome p{
+  margin-bottom:40px;
+}
+
+.welcome p{
+  padding-right:20px;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,1);

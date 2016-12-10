@@ -71,7 +71,7 @@ header.full-height > .jumbotron {
 */
 
 #frontPage {
-  background: url("../images/beach.png");
+  background: url("../images/beach.jpg");
   background-size: 100% 100%;
   filter:saturate(100%);
   margin-top: -60px;
@@ -242,11 +242,6 @@ div#content.container
   z-index: 667;
 }
 
-#welcome p{
-  font-size: 0.9em;
-  letter-spacing: 1px;
-}
-
  p {
   font-size: 1.1em;
   letter-spacing: 3px;
@@ -307,6 +302,10 @@ div#content.container
   margin-left: -40px;
   text-align: center;
   padding-top:1px;
+}
+
+.col-sm-6 .leftHeader{
+  width:400px;
 }
 
 .teal {
