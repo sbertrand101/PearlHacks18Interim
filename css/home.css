@@ -304,8 +304,15 @@ div#content.container
   padding-top:1px;
 }
 
-.col-sm-6 .leftHeader{
-  width:400px;
+.col-sm-6 .leftHeader, .col-md-6 .leftHeader{
+  width:450px;
+}
+.col-md-6 .leftHeader.purple{
+  height:160px;
+}
+
+.welcome a {
+  color: #81CFD3;
 }
 
 .teal {
@@ -316,8 +323,16 @@ div#content.container
   background: #A28AC0;
 }
 
+.purple~ul a  {
+  color: #A28AC0;
+}
+
 .pink {
   background: #DB8385;
+}
+
+.pink~ul a {
+  color: #DB8385;
 }
 
 .footerHome {
