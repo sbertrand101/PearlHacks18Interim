@@ -5,7 +5,12 @@ var faqHeight = function() {
 	if(bubbles.length > 0) {
 		faqHeight = bubbles.first().width() + 65;
 	}
+	var padding = faqHeight / 6;
 	$('#faq .panel').css('height', faqHeight);
+	$('.FAQ_bubble').css('padding-top', padding);
+	$('.FAQ_bubble .FAQ_hover_text').css('padding-bottom', padding);
+	$('.FAQ_bubble').css('padding-left', padding / 1.5);
+	$('.FAQ_bubble').css('padding-right', padding / 1.5);
 };
 
 var affixNav = function() {
@@ -24,3 +29,15 @@ $(window).on('resize', function() {
 
 faqHeight();
 affixNav();
+
+$('.FAQ_bubble_orig').click(function(){
+	var obj = $(this);
+	obj.css('display', 'none');
+	obj.next().css('display', 'inline-block');
+});
+
+$('.FAQ_bubble_click').click(function(){
+	var obj = $(this);
+	obj.css('display', 'none');
+	obj.prev().css('display', 'inline-block');
+});
