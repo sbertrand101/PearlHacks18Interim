@@ -71,11 +71,17 @@ header.full-height > .jumbotron {
 */
 
 #frontPage {
-  background: url("../images/beach.png");
+  background: url("../images/beach.jpg");
   background-size: 100% 100%;
   filter:saturate(100%);
+  margin-top: -60px;
+  margin-bottom:60px;
+  box-shadow: none;
 }
 
+#frontPage .jumbotron {
+  box-shadow: none;
+}
 
 #pearlHacks{
   color: white;
@@ -236,11 +242,6 @@ div#content.container
   z-index: 667;
 }
 
-#welcome p{
-  font-size: 0.9em;
-  letter-spacing: 1px;
-}
-
  p {
   font-size: 1.1em;
   letter-spacing: 3px;
@@ -258,19 +259,24 @@ div#content.container
 
 .pearlhacks-panel.FAQ_bubble {
   width:100%;
-  border-radius:125px;
+  max-width:350px;
+  border-radius:50%;
+  margin:auto;
+  margin-bottom: 20px
 }
 
 .FAQ_bubble {
   padding: 32px
+  margin:auto;
+  margin-bottom:20px;
+}
+
+.FAQ_bubble_click {
+  display:none;
 }
 
 .FAQ_bubble .FAQ_hover_text {
-  padding:0px 0px 40px 0px;
-}
-
-.FAQ_bubble:hover {
-  background: #A28AC0;
+  padding:0px;
 }
 
 .FAQ_text {
@@ -280,27 +286,37 @@ div#content.container
   flex-direction: column;
 }
 
-.FAQ_bubble:hover .FAQ_text {
-  display:none;
-}
-
  .FAQ_hover_text {
-  display:none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
-.FAQ_bubble:hover .FAQ_hover_text {
-  display:initial;
-}
 
 .leftHeader{
-  width: 700px;
-  height:80px;
+  width:100%;
+  min-height:80px;
   margin-bottom: 20px;
-  margin-left: -40px;
   text-align: center;
   padding-top:1px;
+}
+
+@media (min-width: 700px) {
+  .leftHeader{
+    width: 700px;
+    margin-left: -40px;
+  }
+  .col-sm-6 .leftHeader, .col-md-6 .leftHeader{
+    width:450px;
+  }
+  .col-md-6 .leftHeader.purple{
+    height:160px;
+  }
+}
+
+
+
+.welcome a {
+  color: #81CFD3;
 }
 
 .teal {
@@ -311,8 +327,16 @@ div#content.container
   background: #A28AC0;
 }
 
+.purple~ul a  {
+  color: #A28AC0;
+}
+
 .pink {
   background: #DB8385;
+}
+
+.pink~ul a {
+  color: #DB8385;
 }
 
 .footerHome {
