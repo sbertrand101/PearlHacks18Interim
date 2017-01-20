@@ -27,14 +27,20 @@
 			letter-spacing: 1px;
 		}
 
+		.address address{
+			color: #659ec7 ;
+			font-family: 'Diadct Gothic';
+
+		}
 		.parking a{
-		  color: #CE4E6D;
+		  color:  #ffffff;
 		  font-family: 'Didact Gothic';
 		  font-size: 16px;
 		  font-weight: bold;
 		}
 
 		.parking a:hover{
+		  color:  #659ec7;
 		  text-shadow: 1px 1px black;
 		  text-decoration: none;
 		}
@@ -42,6 +48,10 @@
 		.carpool li, .buspool li{
 		  font-family: 'Didact Gothic';
 		  font-size: inherit;
+		}
+
+		.busroutes li{
+			font-size: 25px;
 		}
 
 	</style>
@@ -135,10 +145,12 @@
 				<p>Pearl Hacks will be held in Sitterson Hall, Chapman Hall, 
 					and Carroll Hall on the campus of UNC Chapel Hill. 
 					The address of our venue is:</p>
-				<address>
-  					201 S. Columbia Street<br>
-  					Chapel Hill, NC 27599<br>
-  					</address>
+				<ul class="address">
+					<address>
+  						201 S. Columbia Street<br>
+  						Chapel Hill, NC 27599<br>
+  						</address>
+  				</ul>
 				<p>Free parking is available within easy walking distance of Pearl Hacks beginning 
 					at <b>5:00pm</b> 
 					Friday afternoon if you choose to arrive early. Please make sure you are not parking 
@@ -157,9 +169,9 @@
 	</div>
 		<div class="row welcome">
 			<div class="col-xs-12">
-				<p>All carpool reimbursements have to be pre-approved.</p>
+				<p>All carpool reimbursements have to be preapproved.</p>
 				<p>A carpool consists of 3 or more students intending to participate in Pearl Hacks.</p>
-				<p>Once you receive registration information, e-mail us at hello@pearlhacks.com with subject line "Carpool Reimbursement". List the names
+				<p>Once you receive registration information, email us at hello@pearlhacks.com with subject line "Carpool Reimbursement". List the names
 				of participants who will carpool together and which schools, city and state you will be traveling from.
 				You may be asked to submit reimbursement documents prior to or after the event in order to receive your travel grants.
 				Qualifications for carpool grants are as follows:</p>
@@ -177,11 +189,11 @@
 				<table style="text-align:center;">
 					<tbody>
 						<tr style="font-weight:bold"><td>Maximum one-way distance</td><td>Total grant amount</td></tr>
-						<tr><td>0 - 50 miles</td><td>$0</td></tr>
-						<tr><td>51 - 100 miles</td><td>$20</td></tr>
-						<tr><td>101 - 200 miles</td><td>$40</td></tr>
-						<tr><td>201 - 300 miles</td><td>$60</td></tr>
-						<tr><td>301 - 400 miles</td><td>$80</td></tr>
+						<tr><td>0 to 50 miles</td><td>$0</td></tr>
+						<tr><td>51 to 100 miles</td><td>$20</td></tr>
+						<tr><td>101 to 200 miles</td><td>$40</td></tr>
+						<tr><td>201 to 300 miles</td><td>$60</td></tr>
+						<tr><td>301 to 400 miles</td><td>$80</td></tr>
 						<tr><td>401 + miles</td><td>$100</td></tr>
 					</tbody>
 				</table>
@@ -192,26 +204,22 @@
 				<div class="leftHeader pink">
 					<h2><strong>Charter Buses</strong></h2>
 				</div>
-				<p>We will be offering buses this year! We will have 3 buses that will be picking people up in Florida, Georiga, Virginia,
-				    Maryland, Pennsylvania, New Jersey and New York. Specific stops and more information will be out once routes are finalized. Bus signup
-					emails will be sent out to eligible participants around mid-January. </p>
+				<p>We will be offering buses this year! We will have 3 buses. The bus stops are as follows: </p>
+				<ul class="busroutes">
+					<li>New York University -> Rutgers - New Brunswick -> University of Pennsylvania</li>
+					<li>University of Maryland - College Park -> Howard University -> University of Virginia</li>
+					<li>Florida State University -> University of Florida -> Georgia Tech University</li>
+
+				</ul>
+				<p>Bus signups have been sent out already, but it's not too late to still register! We will still consider you as long as there is room on the bus. If you have questions regarding buses and signups, please email hello@pearlhacks.com</p>
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<div class="leftHeader pink">
 					<h2><strong>Flights</strong></h2>
 				</div>
-				<p>We will be offering flight reimbursements on a first come first serve basis with the amount reimbursed
-			   dependent on where you are traveling from.
-					If you are traveling from the West Coast or Canada, the maximum amount we are able to
-			   reimburse will be $400.
-			   		If you are traveling from anywhere else in the US, the maximum amount we are able to
-			   reimburse will be $300.
-					We are not able to offer flight reimbursements to participants from places that we are sending a bus to.
-
-					Lastly, we will be sending emails out weekly to notify participants of their eligibility for
-					flight reimbursements so if you've already signed up, be on the lookout for that email!
-
-			   If you have any questions about the process,
+				<p>We are sorry to say that we have run out of funds for flight reimbursements since we have received so many requests! We will not be able to reimburse anymore flights from now on. 
+				Again, we are so incredibly sorry about this! 
+			   If you have any questions,
 			   please email us at hello@pearlhacks.com</p>
 			</div>
 		</div>
@@ -222,7 +230,7 @@
 				</div>
 				<p>We love international participants!
 					Unfortunately other than Canada, Pearl Hacks cannot provide assistance for international travel or visa paperwork.
-					However, if you do make it to Pearl Hacks, send us an e-mail with subject line: "International Participant".
+					However, if you do make it to Pearl Hacks, send us an email with subject line: "International Participant".
 					The transportation team would love to show you around Chapel Hill if time permits!
 				</p>
 			</div>
